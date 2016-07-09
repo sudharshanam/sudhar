@@ -1,17 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int a;
+int a,s=0,i;
 clrscr();
 printf("enter the value");
 scanf("%d",&a);
-if(a%4==0)
+for(i=1;i<=a;i++)
 {
-printf("leap");
-}
-else
-{
-printf("not leap");
-}
+s=s+i;
+printf("print %d",a);
 getch();
 }
