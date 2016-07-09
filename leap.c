@@ -10,6 +10,8 @@ if(a%4==0)
 printf("leap");
 }
 else
+{
 printf("not leap");
+}
 getch();
 }
